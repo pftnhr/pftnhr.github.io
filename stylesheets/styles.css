@@ -108,6 +108,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  text-align: center;
 }
 
 header ul {
@@ -171,11 +172,6 @@ header ul a:active {
   box-shadow: inset 0px 2px 2px 0px #ddd;
 }
 
-strong {
-  color:#222;
-  font-weight:700;
-}
-
 header ul li + li {
   width:88px;
   border-left:1px solid #fff;
@@ -190,6 +186,15 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
+}
+
+header img {
+  margin-bottom: 15px;
+}
+
+strong {
+  color:#222;
+  font-weight:700;
 }
 
 section {
