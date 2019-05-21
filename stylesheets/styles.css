@@ -94,6 +94,7 @@ th, td {
 dt {
   color:#444;
   font-weight:700;
+  margin-top: 10px;
 }
 
 th {
@@ -219,6 +220,10 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+.einrueck {
+	text-indent: 10px;
 }
 
 @media print, screen and (max-width: 960px) {
