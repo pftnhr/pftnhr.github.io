@@ -226,6 +226,24 @@ footer {
 	text-indent: 10px;
 }
 
+dd a { position:relative; }
+
+dd a span {
+	position:absolute;
+	display:none;
+	z-index:99;
+}
+
+dd a:hover span {
+	display: block;
+	border: 2px solid #00affe;
+	position: absolute;
+	background-color: #eee;
+	top: 0px;
+	left: -105px;
+	padding: 5px 5px 1px 5px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
